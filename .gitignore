@@ -1,0 +1,9 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+#Ignore the variable file as well.
+variables.tf
+terraform_module\prod\variables.tf

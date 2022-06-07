@@ -1,0 +1,9 @@
+---
+- name: Install git
+  hosts: "{{ target_host }}"
+  gather_facts: true
+  remote_user: 
+  become: yes
+
+  roles:
+  - nginx
